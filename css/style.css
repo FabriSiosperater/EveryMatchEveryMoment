@@ -180,3 +180,69 @@ h2{
     color:#FFD54F;
 
 }
+/* ===========================
+   BRACKET v0.3
+=========================== */
+
+.bracket{
+
+    display:flex;
+    gap:25px;
+    overflow-x:auto;
+    padding:20px 0;
+
+}
+
+.round{
+
+    min-width:170px;
+
+}
+
+.round h3{
+
+    color:#FFD54F;
+    text-align:center;
+    margin-bottom:15px;
+
+}
+
+.match{
+
+    background:#102746;
+
+    padding:12px;
+
+    border-radius:12px;
+
+    margin-bottom:12px;
+
+    text-align:center;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    transition:.2s;
+
+}
+
+.match:hover{
+
+    transform:scale(1.03);
+
+}
+
+.empty{
+
+    opacity:.55;
+
+}
+
+.champion{
+
+    background:#FFD54F;
+
+    color:#071B34;
+
+    font-weight:bold;
+
+}
