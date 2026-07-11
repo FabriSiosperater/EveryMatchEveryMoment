@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Every Match Every Moment</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header class="header">
+    <h1>🏆 Every Match Every Moment</h1>
+    <p>Mundial 2026</p>
+</header>
+
+<main id="app">
+
+    <!-- RESUMEN -->
+
+    <section id="summary" class="screen active">
+
+        <h2>Resumen</h2>
+
+        <div class="card">
+            <h3>🌍 Fase actual</h3>
+            <p>Dieciseisavos</p>
+        </div>
+
+        <div class="card">
+            <h3>⏰ Próximo partido</h3>
+
+            <p>🇦🇷 Argentina vs 🇩🇪 Alemania</p>
+
+            <strong>20:00</strong>
+
+        </div>
+
+        <div class="card">
+
+            <h3>🔥 Último resultado</h3>
+
+            <p>🇧🇷 Brasil 2 - 1 Japón 🇯🇵</p>
+
+        </div>
+
+    </section>
+
+    <!-- PARTIDOS -->
+
+    <section id="matches" class="screen">
+
+        <h2>⚽ Partidos</h2>
+
+        <p>En vivo • Próximos • Finalizados</p>
+
+    </section>
+
+    <!-- LLAVES -->
+
+    <section id="bracket" class="screen">
+
+        <h2>🏆 Llaves</h2>
+
+        <p>La tabla de eliminatorias aparecerá aquí.</p>
+
+    </section>
+
+    <!-- AJUSTES -->
+
+    <section id="settings" class="screen">
+
+        <h2>⚙️ Ajustes</h2>
+
+        <p>Configuración de la aplicación.</p>
+
+    </section>
+
+</main>
+
+<nav class="bottom-nav">
+
+    <button onclick="showScreen('summary')">
+
+        🏠
+
+        <span>Resumen</span>
+
+        <small>Estado</small>
+
+    </button>
+
+    <button onclick="showScreen('matches')">
+
+        ⚽
+
+        <span>Partidos</span>
+
+        <small>En vivo</small>
+
+    </button>
+
+    <button onclick="showScreen('bracket')">
+
+        🏆
+
+        <span>Llaves</span>
+
+        <small>Eliminatorias</small>
+
+    </button>
+
+    <button onclick="showScreen('settings')">
+
+        ⚙️
+
+        <span>Ajustes</span>
+
+        <small>App</small>
+
+    </button>
+
+</nav>
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
