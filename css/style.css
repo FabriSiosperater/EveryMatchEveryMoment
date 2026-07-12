@@ -246,3 +246,158 @@ h2{
     font-weight:bold;
 
 }
+/*==========================
+V0.4 - HOME
+==========================*/
+
+.hero{
+
+    text-align:center;
+
+    margin-bottom:30px;
+
+}
+
+.trophy{
+
+    font-size:70px;
+
+    margin:15px 0;
+
+}
+
+.hero h3{
+
+    font-size:28px;
+
+    color:#FFD54F;
+
+}
+
+.stage{
+
+    margin-top:10px;
+
+    font-size:18px;
+
+}
+
+.today{
+
+    margin-top:8px;
+
+    color:#C8D6E5;
+
+}
+
+.featured-match{
+
+    background:#102746;
+
+    border-radius:20px;
+
+    padding:25px;
+
+    text-align:center;
+
+    border:2px solid #FFD54F;
+
+}
+
+.featured-title{
+
+    color:#FFD54F;
+
+    font-weight:bold;
+
+    font-size:22px;
+
+    margin-bottom:25px;
+
+}
+
+.teams{
+
+    display:flex;
+
+    justify-content:space-evenly;
+
+    align-items:center;
+
+}
+
+.team{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:8px;
+
+    font-size:55px;
+
+}
+
+.team span{
+
+    font-size:18px;
+
+    font-weight:bold;
+
+}
+
+.vs{
+
+    font-size:28px;
+
+    font-weight:bold;
+
+}
+
+.kickoff{
+
+    margin-top:25px;
+
+    font-size:22px;
+
+}
+
+.quick-actions{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:15px;
+
+    margin-top:30px;
+
+}
+
+.quick-actions button{
+
+    background:#FFD54F;
+
+    color:#071B34;
+
+    border:none;
+
+    border-radius:14px;
+
+    padding:16px;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:.25s;
+
+}
+
+.quick-actions button:hover{
+
+    transform:scale(1.02);
+
+}
