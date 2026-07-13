@@ -469,3 +469,98 @@ Estructura de Eliminatorias
     height:120px;
 
 }
+/*==========================
+2A.2 Tarjetas
+==========================*/
+
+.match{
+
+    position:relative;
+
+    overflow:hidden;
+
+    display:flex;
+
+    align-items:center;
+
+    background:#102746;
+
+    border-radius:18px;
+
+    box-shadow:0 0 8px rgba(255,255,255,.05);
+
+}
+
+.status-bar{
+
+    width:5px;
+
+    height:100%;
+
+    background:#D9D9D9;
+
+    flex-shrink:0;
+
+}
+
+.match-content{
+
+    width:100%;
+
+    padding:12px;
+
+}
+
+.team-row{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin:8px 0;
+
+    font-size:15px;
+
+    font-weight:600;
+
+}
+
+.score{
+
+    font-size:18px;
+
+    font-weight:bold;
+
+}
+
+.upcoming{
+
+    box-shadow:0 0 10px rgba(255,255,255,.08);
+
+}
+
+.live .status-bar{
+
+    background:#FF3B30;
+
+}
+
+.live{
+
+    box-shadow:0 0 14px rgba(255,59,48,.25);
+
+}
+
+.finished .status-bar{
+
+    background:#34C759;
+
+}
+
+.finished{
+
+    box-shadow:0 0 14px rgba(52,199,89,.18);
+
+}
